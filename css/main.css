@@ -3,13 +3,18 @@
     padding: 0;
 }
 
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x top left;
+}
+
 .clear {
     clear: both;
 }
 
 /****************************Inicio do vabeçalho*************************************************/
 #cabecalho {
-    background: url(../NoticiasCidade/imagens/fundo.png) repeat-x top left;
+    background: url(../imagens/fundo.png) repeat-x top left;
     width: 100%;
     height: 230px;
     min-width: 1110px;
@@ -17,7 +22,7 @@
 
 
 #logo {
-    background: url(../NoticiasCidade/imagens/logo.png) no-repeat;
+    background: url(../imagens/logo.png) no-repeat;
     width: 155px;
     height: 66px;
     margin: 10px 0 0 270px;
@@ -25,7 +30,7 @@
 }
 
 #paisimg {
-    background: url(../NoticiasCidade/imagens/detalhe-topo.png) no-repeat;
+    background: url(../imagens/detalhe-topo.png) no-repeat;
     height: 180px;
     width: 180px;
     margin-left: 500px;
@@ -56,7 +61,7 @@
 }
 
 .divisor {
-    background: url(../NoticiasCidade/imagens/divisor.png) no-repeat left center;
+    background: url(../imagens/divisor.png) no-repeat left center;
 }
 
 
